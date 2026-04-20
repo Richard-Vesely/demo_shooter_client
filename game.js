@@ -1,7 +1,7 @@
 // IMPORTANT:
 // Replace this with your Railway backend URL after deployment.
 // Example: const SERVER_URL = "https://your-backend-production.up.railway.app";
-const SERVER_URL = "http://localhost:3000";
+const SERVER_URL = "demoshooterserver-production.up.railway.app";
 
 const socket = io(SERVER_URL, {
   transports: ["websocket", "polling"]
