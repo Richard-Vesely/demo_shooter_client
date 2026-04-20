@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  #game {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: #1b1b1b;
+  }
+  
+  #ui {
+    position: fixed;
+    left: 12px;
+    top: 12px;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 10px 12px;
+    border-radius: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
